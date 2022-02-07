@@ -1,22 +1,25 @@
 # Frontend Mentor - Space Tourism
 
+<h1 align="center">
+Desktop
+</h1>
 
 <p align="center"> 
-        Desktop
     <img src="./desktop.png">
 </p>
 
-
-
-<p align="center"> 
+<h1 align="center">
 Tablet
+</h1>
+<p align="center"> 
     <img src="./tablet.png">
 </p>
 
 
-
-<p align="center"> 
+<h1 align="center">
 Mobile
+</h1>
+<p align="center"> 
     <img src="./mobile.png">
 </p>
 
