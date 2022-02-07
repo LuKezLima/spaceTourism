@@ -1,19 +1,22 @@
-# Frontend Mentor - Sunnyside agency landing page solution
-Desktop
+# Frontend Mentor - Space Tourism
+
 
 <p align="center"> 
+        Desktop
     <img src="./desktop.png">
 </p>
 
-Tablet
+
 
 <p align="center"> 
+Tablet
     <img src="./tablet.png">
 </p>
 
-Mobile
+
 
 <p align="center"> 
+Mobile
     <img src="./mobile.png">
 </p>
 
