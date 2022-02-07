@@ -1,0 +1,68 @@
+.destination{
+    background-image: url(/src/assets/destination/background-destination-desktop.jpg);
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    
+   
+}
+
+.contentDestination{
+    position: absolute;
+    margin-top: 26vh;
+    z-index: 7;
+    margin-left: 10vw;
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+
+.contentDestination h2:first-of-type{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.contentDestination h2 span{
+    opacity: .6;
+}
+
+@media (max-width: 850px){
+    .destination{
+        background-image: url(/src/assets/destination/background-destination-tablet.jpg);
+        background-position: center;
+        overflow: hidden;
+    }
+
+    .contentDestination{
+        margin-top: 17vh;
+     height: 100%;
+     
+    }
+
+
+    .contentDestination h2:first-of-type{
+        align-self: flex-start;
+        
+    }
+}
+
+@media (max-width: 640px){
+   .contentDestination{
+     align-items: center;
+     margin-top: 15vh;
+   }
+
+   .contentDestination h2:first-of-type{
+    align-self: center;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+}

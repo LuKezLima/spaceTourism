@@ -1,0 +1,51 @@
+.crew{
+    background-image: url(/src/assets/crew/background-crew-desktop.jpg);
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+}
+
+
+.contentCrew{
+    position: absolute;
+    margin-top: 26vh;
+    z-index: 7;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 73%;
+    width: 80vw;
+    gap: 1.3rem;
+    bottom: 0;
+}
+@media (max-width: 850px){
+    .contentCrew{
+        bottom: auto;
+        margin-top: 17vh;
+        height: 83vh;
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 640px){
+    .crew{
+        height: 100%;
+      
+        
+        overflow-x: hidden;
+    }
+
+  .contentCrew > h2{
+    margin-top: -1vh;
+      text-align: center;
+      width: 100%;
+  }
+
+  .contentCrew{
+    height:110%;
+    gap: 0rem;
+  }
+ }

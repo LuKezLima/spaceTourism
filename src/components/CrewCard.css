@@ -1,0 +1,144 @@
+.crewCard{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    overflow: hidden;
+}
+
+.crewContent{
+   width:55%;
+}
+
+.crewImage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-size: cover;
+}
+
+.crewImage img{
+    background-size: cover;
+    width: 50%;
+    height: auto;
+}
+
+.contentCrew h2:first-of-type{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    
+}
+
+.contentCrew h2 span{
+    opacity: .6;
+}
+
+.menuCrew{
+    display: flex;
+    gap: 1rem;
+}
+
+.menuItemCrew{
+    background-color: #ffffff59;
+    border-radius: 50%;
+    width: .9rem;
+    height: .9rem;
+    cursor: pointer;
+}
+
+.menuItemCrew:hover{
+    background-color: #ffffffb0;
+}
+
+.crewContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.crewInfo h3{
+    font-family: 'Bellefair', sans-serif;
+    font-size: clamp(1.3rem, 2vw + .3rem, 4rem);
+    font-weight: 500;
+    opacity: .6;
+}
+.crewInfo h2{
+    font-family: 'Bellefair', sans-serif !important;
+    font-size: clamp(2.1rem, 2.5vw + .5rem, 4rem);
+    font-weight: 500;
+}
+
+.crewInfo h2,h3{
+    text-transform: uppercase;
+}
+
+.crewContent p{
+    font-size: clamp(1rem, .6vw + .4rem, 2rem);
+    line-height: 1.8rem;
+}
+
+@media (max-width: 850px){
+    .crewCard{
+       flex-direction: column;
+       align-items: center;
+       gap: 4rem;  
+    }
+
+    .menuCrew{
+        justify-content: center;
+    }
+
+    .crewContent{
+        width: 100%;
+        text-align: center;
+    }
+
+    .crewImage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+    }
+    
+    .crewImage img{
+        background-size: cover;
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media (max-width: 640px){
+   
+ .crewCard{
+    flex-direction: column-reverse; 
+    gap: 1rem;
+    justify-content: center;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+ .crewContent{
+     gap: 2rem;
+     overflow-x: hidden;
+ }
+
+ .crewImage img{
+    width: 60%;
+    overflow-x: hidden;
+   
+}
+
+.crewInfo h2{
+    font-size: 1.7rem;
+    overflow-x: hidden;
+    
+}
+.crewInfo {
+    overflow-x: hidden;
+    
+}
+
+
+ }
